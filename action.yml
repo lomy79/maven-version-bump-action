@@ -1,11 +1,11 @@
 # ref: https://help.github.com/en/actions/building-actions/metadata-syntax-for-github-actions
-name: Maven Version Bump Action
+name: Maven Version Bump Actions
 description: A simple GitHub Actions to bump the version of Maven projects
 
-author: Nick Nichols
+author: Andrea Aresu
 
 branding:
-  color: purple
+  color: red
   icon: git-commit
 
 inputs:
