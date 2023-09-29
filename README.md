@@ -3,7 +3,7 @@
 A simple GitHub Actions to bump the version of Maven projects.
 
 When triggered, this action will look at the commit message of HEAD~1 and determine if it contains one of `#major`, `#minor`, or `#patch` (in that order of precedence).
-If true, it will use Maven to bump your pom's version.
+If no qualifier is present, it will be considered a patch.
 
 For example, a `#minor` update to version `1.3.9` will result in the version changing to `1.4.0`.
 The change will then be committed.
@@ -22,7 +22,7 @@ jobs:
 
     steps:
     - name: Checkout Latest Commit
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
     - name: Bump Version
       id: bump
