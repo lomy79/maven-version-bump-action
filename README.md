@@ -47,6 +47,8 @@ jobs:
 
 ## Licensing
 
+Copyright © 2023 [Andrea Aresu](aaresu@gmail.com)
+
 Copyright © 2021-2022 [Nick Nichols](https://nnichols.github.io/)
 
 Distributed under the [MIT License](https://github.com/nnichols/maven-version-bump-action/blob/master/LICENSE)
