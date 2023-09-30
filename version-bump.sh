@@ -41,6 +41,7 @@ if git log -1 | grep -q "#major"; then
   BUMP_MODE="major"
 elif git log -1 | grep -q "#minor"; then
   BUMP_MODE="minor"
+fi
 
 if [[ "${BUMP_MODE}" == "none" ]]
 then
